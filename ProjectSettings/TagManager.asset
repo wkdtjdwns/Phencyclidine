@@ -7,6 +7,8 @@ TagManager:
   - item
   - search item
   - DontDestroy
+  - Undefined
+  - searched item
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - Water
   - UI
   - item
-  - 
+  - dead_body
   - 
   - 
   - 

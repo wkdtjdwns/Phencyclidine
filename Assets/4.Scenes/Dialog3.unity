@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSystem: {fileID: 49036879}
-  sceneName: GameScene1
+  sceneName: Dialog12
 --- !u!4 &973150743
 Transform:
   m_ObjectHideFlags: 0

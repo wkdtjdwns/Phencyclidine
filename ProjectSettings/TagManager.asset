@@ -9,6 +9,8 @@ TagManager:
   - DontDestroy
   - Undefined
   - searched item
+  - Suspect
+  - SuspectData
   layers:
   - Default
   - TransparentFX

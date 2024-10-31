@@ -6,11 +6,13 @@ public class DontDestroyOnLoad : MonoBehaviour
 {
     private void Awake()
     {
-        DontDestroy();
+        SuspectDataDontDestroy();
+        //NoteDontDestroy();
     }
-    private void DontDestroy()
+
+    private void SuspectDataDontDestroy()
     {
-        GameObject[] objs = GameObject.FindGameObjectsWithTag("DontDestroy");
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("SuspectData");
 
         if (objs.Length == 1)
         {
@@ -25,4 +27,22 @@ public class DontDestroyOnLoad : MonoBehaviour
             }
         }
     }
+
+    //private void NoteDontDestroy()
+    //{
+    //    GameObject[] objs = GameObject.FindGameObjectsWithTag("Note");
+
+    //    if (objs.Length == 1)
+    //    {
+    //        DontDestroyOnLoad(objs[0]);
+    //    }
+
+    //    else
+    //    {
+    //        for (int index = 1; index < objs.Length; index++)
+    //        {
+    //            Destroy(objs[index]);
+    //        }
+    //    }
+    //}
 }

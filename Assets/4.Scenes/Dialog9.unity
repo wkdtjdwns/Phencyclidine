@@ -252,6 +252,13 @@ MonoBehaviour:
   - spriteRenderer: {fileID: 959154082}
     isFirst: 0
   dialogs:
+  - speakerIndex: -1
+    association: ???
+    name: "\uB098\uB808\uC774\uC158"
+    mapIndex: 0
+    dialogue: "\uB8E8\uCE74\uC2A4\uB294 \uC5D0\uB2E8 -> \uC0AC\uB77C -> \uC5D0\uBC00\uB9AC
+      -> \uC18C\uD53C\uC544 -> \uC81C\uC774\uCF65\uC758 \uC21C\uC11C\uB85C \uC870\uC0AC\uD558\uAE30\uB85C
+      \uB9C8\uC74C \uBA39\uC5C8\uB2E4."
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
@@ -1252,7 +1259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSystem: {fileID: 49036879}
-  sceneName: GameScene2
+  sceneName: Dialog3
 --- !u!4 &973150743
 Transform:
   m_ObjectHideFlags: 0

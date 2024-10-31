@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Dialog : MonoBehaviour
 {
@@ -11,6 +12,6 @@ public class Dialog : MonoBehaviour
     {
         yield return new WaitUntil(() => dialogSystem.UpdateDialog());
 
-        SceneController.instance.SceneChange(sceneName);
+        SceneManager.LoadScene(sceneName);
     }
 }

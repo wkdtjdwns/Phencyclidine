@@ -160,17 +160,13 @@ public class DialogSystem : MonoBehaviour
     private void SetActiveObjects(Speaker speaker, bool visible)
     {
         // 캐릭터 알파 값 변경
-        Color color = speaker.spriteRenderer.color;
-        color.a = visible == true ? 1 : speaker.isFirst ? 0.0f : 0.2f;
-        speaker.spriteRenderer.color = color;
+        speaker.spriteRenderer.color = visible == true ? new Color(1, 1, 1, 1) : speaker.isFirst ? new Color(1, 1, 1, 0) : new Color(0.5f, 0.5f, 0.5f, 0.75f);
     }
 
     private void SetActiveObjects(GameObject dialogGroup, Speaker speaker, bool visible)
     {
         // 캐릭터 알파 값 변경
-        Color color = speaker.spriteRenderer.color;
-        color.a = visible == true ? 1 : speaker.isFirst ? 0.2f : 0.0f;
-        speaker.spriteRenderer.color = color;
+        speaker.spriteRenderer.color = visible == true ? new Color(1, 1, 1, 1) : speaker.isFirst ? new Color(1, 1, 1, 0) : new Color(0.3f, 0.3f, 0.3f, 0.75f);
         dialogGroup.SetActive(visible);
     }
 

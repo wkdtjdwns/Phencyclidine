@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class DialogSystem : MonoBehaviour
 {
+    [SerializeField] private SpriteRenderer background;
+    [SerializeField] private Sprite[] backgrounds;
+
     [SerializeField] private Speaker[] speakers; // 대화에 참여하는 캐릭터들의 UI 배열
     public DialogData[] dialogs; // 현재 분기의 대사 목록 배열
 
@@ -114,6 +117,8 @@ public class DialogSystem : MonoBehaviour
             // 현재 화자 이름 텍스트 설정
             nameText.text = dialogs[curIndex].name;
 
+            background.sprite = backgrounds[dialogs[curIndex].mapIndex];
+
             // 현재 화자의 대사 텍스트 설정
             StartCoroutine("OnTypingText");
         }
@@ -144,6 +149,8 @@ public class DialogSystem : MonoBehaviour
 
             // 현재 화자 이름 텍스트 설정
             nameText.text = dialogs[curIndex].name;
+
+            background.sprite = backgrounds[dialogs[curIndex].mapIndex];
 
             // 현재 화자의 대사 텍스트 설정
             StartCoroutine("OnTypingText");
@@ -200,6 +207,7 @@ public struct DialogData
     public int speakerIndex; // 이름과 대사를 출력할 현재 DialogSystem의 speakers 배열 순번
     public string association; // 캐릭터 소속
     public string name; // 캐릭터 이름
+    public int mapIndex;
 
     [TextArea(3, 5)]
     public string dialogue; // 대사

@@ -2101,9 +2101,9 @@ GameObject:
   - component: {fileID: 813645116}
   - component: {fileID: 813645115}
   - component: {fileID: 813645114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-Sliced
-  m_TagString: Untagged
+  m_TagString: item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

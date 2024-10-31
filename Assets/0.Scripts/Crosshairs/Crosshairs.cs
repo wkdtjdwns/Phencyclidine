@@ -16,14 +16,14 @@ public class Crosshairs : MonoBehaviour
 
     private void Update()
     {
-        /*// 마우스 위치에서 Ray를 발사합니다.
+        // 마우스 위치에서 Ray를 발사합니다.
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        // 2D Raycast를 수행합니다.
-        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero, Mathf.Infinity, targetMask);
+        // targetMask에 포함된 레이 확인
+        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero, targetMask);
 
-        // Ray가 targetMask와 충돌하는지 확인합니다.
-        if (hit.collider.tag == "item")
+        // Raycast 결과 확인
+        if (hit.collider != null)
         {
             Debug.Log("충돌 감지: " + hit.collider.name); // 충돌한 오브젝트 이름 출력
             // 충돌했을 때 커서 이미지를 highlight 이미지로 변경합니다.
@@ -33,7 +33,6 @@ public class Crosshairs : MonoBehaviour
         {
             // 충돌하지 않았을 때 기본 이미지로 변경합니다.
             Cursor.SetCursor(dot, Vector2.zero, CursorMode.Auto);
-            Debug.Log("충돌 없음"); // 충돌이 없음을 출력
-        }*/
+        }
     }
 }

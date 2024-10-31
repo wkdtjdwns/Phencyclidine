@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class Dialog : MonoBehaviour
 {
-    [SerializeField] private DialogSystem[] dialogSystems;
-    [SerializeField] private int index;
+    [SerializeField] private DialogSystem dialogSystem;
+    [SerializeField] private string sceneName;
 
     private IEnumerator Start()
     {
-        for (int i = 0; i < dialogSystems[index].dialogs.Length; i++)
-        {
-            yield return new WaitUntil(() => dialogSystems[index].UpdateDialog());
-        }
+        yield return new WaitUntil(() => dialogSystem.UpdateDialog());
 
-        index++;
+        SceneController.instance.SceneChange(sceneName);
     }
 }

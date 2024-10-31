@@ -341,12 +341,12 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "\uC77C\uB2E8 \uC624\uB298\uC740 \uAC00\uBCF4\uACA0\uC2B5\uB2C8\uB2E4... "
+    dialogue: "\uC77C\uB2E8 \uC624\uB298\uC740 \uAC00\uBCF4\uC154\uB3C4 \uC88B\uC2B5\uB2C8\uB2E4..."
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "(\uC77C\uB2E8 \uC0AC\uBB34\uC18C\uB85C \uB3CC\uC544\uAC00\uC11C \uC815\uB9AC\uB97C
+    dialogue: "(\uC77C\uB2E8 \uC9D1\uC73C\uB85C \uBCF4\uB0B4\uACE0  \uC815\uB9AC\uB97C
       \uD574\uBCF4\uC790...) "
   dialogGroup: {fileID: 956877733}
   dialogImage: {fileID: 1284246653}

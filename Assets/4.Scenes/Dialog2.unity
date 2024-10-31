@@ -244,7 +244,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   background: {fileID: 318233316}
-  backgrounds: []
+  backgrounds:
+  - {fileID: 21300000, guid: 4b44f2f9ca250ff43b1711e272f55e63, type: 3}
+  - {fileID: 21300000, guid: ba9330d3c347cb04fbe70603abce79ec, type: 3}
+  - {fileID: 21300000, guid: 70293084148f7ca4ea271961eae105d3, type: 3}
   speakers:
   - spriteRenderer: {fileID: 114891644}
     isFirst: 0
@@ -754,15 +757,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -5
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4b44f2f9ca250ff43b1711e272f55e63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 9.58, y: 5.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &318233317

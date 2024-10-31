@@ -15,33 +15,60 @@ EditorBuildSettings:
     path: Assets/4.Scenes/Dialog2.unity
     guid: a33b9f7c518630c4fac36f533beccafd
   - enabled: 1
-    path: Assets/4.Scenes/GameScene2.unity
+    path: Assets/4.Scenes/GameScene3.unity
     guid: 9e436f8b510c756468e8d2bb8cd2c00b
   - enabled: 1
-    path: Assets/4.Scenes/Dialog3.unity
+    path: "Assets/4.Scenes/\uC0AC\uB77C/Dialog3.unity"
     guid: 02fddc3e298bd5e4d89e1a2eca199069
   - enabled: 1
-    path: Assets/4.Scenes/Dialog4.unity
+    path: "Assets/4.Scenes/\uC0AC\uB77C/Dialog4.unity"
     guid: fb2b81a8420a7b5419a6e175f3da6c76
   - enabled: 1
-    path: Assets/4.Scenes/Dialog5.unity
+    path: "Assets/4.Scenes/\uC0AC\uB77C/Dialog5.unity"
     guid: 0f24dc387a5876a44906f8f6ed2845ee
   - enabled: 1
-    path: Assets/4.Scenes/Dialog6.unity
+    path: "Assets/4.Scenes/\uC18C\uD53C\uC544/Dialog6.unity"
     guid: 507a9ef1b12045f45be830fb16c37280
   - enabled: 1
-    path: Assets/4.Scenes/Dialog7.unity
+    path: "Assets/4.Scenes/\uC18C\uD53C\uC544/Dialog7.unity"
     guid: 9315ba8ebb5770d4c9fd4a8191b75e0b
   - enabled: 1
-    path: "Assets/4.Scenes/Dialog8-\uAC1C\uBC1C\uD544\uC694.unity"
+    path: "Assets/4.Scenes/\uC18C\uD53C\uC544/Dialog8.unity"
     guid: d6956d60d59472e48a9803880fc6dd22
   - enabled: 1
-    path: Assets/4.Scenes/Dialog9.unity
+    path: "Assets/4.Scenes/\uC5D0\uB2E8/Dialog9.unity"
     guid: 78dc2cde524be154f9c032acae67a716
   - enabled: 1
-    path: Assets/4.Scenes/Dialog10.unity
+    path: "Assets/4.Scenes/\uC5D0\uB2E8/Dialog10.unity"
     guid: 5a401b13eb8b32c4fb17adf3bae63f37
   - enabled: 1
-    path: Assets/4.Scenes/Dialog15.unity
+    path: "Assets/4.Scenes/\uC81C\uC774\uCF65/Dialog15.unity"
     guid: 1ccd3615640d16d4f9a64ce0a3b62ef3
+  - enabled: 1
+    path: "Assets/4.Scenes/\uC5D0\uB2E8/Dialog11.unity"
+    guid: eca189a255c6949499bbe92c23e0bc7b
+  - enabled: 1
+    path: "Assets/4.Scenes/\uC5D0\uBC00\uB9AC/Dialog12.unity"
+    guid: 824df510c03045449ace8a4b510b64ac
+  - enabled: 1
+    path: "Assets/4.Scenes/\uC5D0\uBC00\uB9AC/Dialog13.unity"
+    guid: c82765f1a9f59e742be7e5c68ff59e28
+  - enabled: 1
+    path: "Assets/4.Scenes/\uC5D0\uBC00\uB9AC/Dialog14.unity"
+    guid: a4d553d564736984a890714608ff2d0d
+  - enabled: 1
+    path: "Assets/4.Scenes/\uC81C\uC774\uCF65/Dialog16.unity"
+    guid: 2253987e1eba4a24f9bd452f282394d5
+  - enabled: 1
+    path: "Assets/4.Scenes/\uC81C\uC774\uCF65/Dialog17.unity"
+    guid: 49b623b568ab8b8408f1e6b2accc6076
+  - enabled: 1
+    path: Assets/4.Scenes/GameScene2.unity
+    guid: c19ff7cbc6410304ba3c7639032a3e1a
+  - enabled: 1
+    path: Assets/4.Scenes/ItemSceen.unity
+    guid: b8cabdf2021b9064799b618b06bca1e2
+  - enabled: 1
+    path: Assets/4.Scenes/StartScene.unity
+    guid: 21ec6062901eb4847bb66e5237630e4c
   m_configObjects: {}

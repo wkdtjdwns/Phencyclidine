@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class DialogSystem : MonoBehaviour
 {
     [SerializeField] private Speaker[] speakers; // 대화에 참여하는 캐릭터들의 UI 배열
-    [SerializeField] private DialogData[] dialogs; // 현재 분기의 대사 목록 배열
+    public DialogData[] dialogs; // 현재 분기의 대사 목록 배열
 
     [SerializeField] private GameObject dialogGroup;
     [SerializeField] private Image dialogImage; // 대화창 Image UI
@@ -29,7 +29,7 @@ public class DialogSystem : MonoBehaviour
         // 모든 대화 관련 게임오브젝트 비활성화
         for (int i = 0; i < speakers.Length; ++i)
         {
-            SetActiveObjects(dialogGroup, speakers[i], false);
+            SetActiveObjects(speakers[i], false);
 
             // 캐릭터 이미지는 보이도록 설정
             speakers[i].spriteRenderer.gameObject.SetActive(true);
@@ -95,34 +95,74 @@ public class DialogSystem : MonoBehaviour
 
     private void SetNextDialog()
     {
-        // 이전 화자의 대화 관련 오브젝트 비활성화
-        SetActiveObjects(dialogGroup, speakers[curSpeakerIndex], false);
+        if (dialogs[curIndex + 1].speakerIndex == -1)
+        {
+            for (int i = 0; i < speakers.Length; ++i)
+            {
+                SetActiveObjects(speakers[i], false);
 
-        // 다음 대사를 진행하도록 
-        curIndex++;
+                // SetActiveObjects()에 캐릭터 이미지를 보이지 않게 하는 부분이 없기 때문에 별도로 호출
+                speakers[i].spriteRenderer.gameObject.SetActive(false);
+            }
 
-        // 현재 화자 순번 설정
-        curSpeakerIndex = dialogs[curIndex].speakerIndex;
+            // 다음 대사를 진행하도록 
+            curIndex++;
 
-        // 현재 화자의 대화 관련 오브젝트 활성화
-        SetActiveObjects(dialogGroup, speakers[curSpeakerIndex], true);
+            // 현재 화자 소속 텍스트 설정
+            associationText.text = dialogs[curIndex].association;
 
-        // 현재 화자 소속 텍스트 설정
-        associationText.text = dialogs[curIndex].association;
+            // 현재 화자 이름 텍스트 설정
+            nameText.text = dialogs[curIndex].name;
 
-        // 현재 화자 이름 텍스트 설정
-        nameText.text = dialogs[curIndex].name;
+            // 현재 화자의 대사 텍스트 설정
+            StartCoroutine("OnTypingText");
+        }
 
-        // 현재 화자의 대사 텍스트 설정
-        StartCoroutine("OnTypingText");
+        else
+        {
+            // 모든 대화 관련 게임오브젝트 비활성화
+            for (int i = 0; i < speakers.Length; ++i)
+            {
+                SetActiveObjects(speakers[i], false);
+
+                // 캐릭터 이미지는 보이도록 설정
+                speakers[i].spriteRenderer.gameObject.SetActive(true);
+            }
+
+            // 다음 대사를 진행하도록 
+            curIndex++;
+
+            // 현재 화자 순번 설정
+            curSpeakerIndex = dialogs[curIndex].speakerIndex;
+
+            // 현재 화자의 대화 관련 오브젝트 활성화
+            SetActiveObjects(speakers[curSpeakerIndex], true);
+            speakers[curSpeakerIndex].isFirst = false;
+
+            // 현재 화자 소속 텍스트 설정
+            associationText.text = dialogs[curIndex].association;
+
+            // 현재 화자 이름 텍스트 설정
+            nameText.text = dialogs[curIndex].name;
+
+            // 현재 화자의 대사 텍스트 설정
+            StartCoroutine("OnTypingText");
+        }
+    }
+
+    private void SetActiveObjects(Speaker speaker, bool visible)
+    {
+        // 캐릭터 알파 값 변경
+        Color color = speaker.spriteRenderer.color;
+        color.a = visible == true ? 1 : speaker.isFirst ? 0.0f : 0.2f;
+        speaker.spriteRenderer.color = color;
     }
 
     private void SetActiveObjects(GameObject dialogGroup, Speaker speaker, bool visible)
     {
-
         // 캐릭터 알파 값 변경
         Color color = speaker.spriteRenderer.color;
-        color.a = visible == true ? 1 : 0.2f;
+        color.a = visible == true ? 1 : speaker.isFirst ? 0.2f : 0.0f;
         speaker.spriteRenderer.color = color;
         dialogGroup.SetActive(visible);
     }
@@ -151,6 +191,7 @@ public class DialogSystem : MonoBehaviour
 public struct Speaker
 {
     public SpriteRenderer spriteRenderer;  // 캐릭터 이미지 (청자/화자 알파값 제어)
+    public bool isFirst;
 }
 
 [System.Serializable]

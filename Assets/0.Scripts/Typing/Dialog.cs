@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class Dialog : MonoBehaviour
 {
-    [SerializeField] private DialogSystem dialogSystem;
+    [SerializeField] private DialogSystem[] dialogSystems;
+    [SerializeField] private int index;
 
     private IEnumerator Start()
     {
-        // 첫 번째 대사 분기 시작
-        yield return new WaitUntil(() => dialogSystem.UpdateDialog());
+        for (int i = 0; i < dialogSystems[index].dialogs.Length; i++)
+        {
+            yield return new WaitUntil(() => dialogSystems[index].UpdateDialog());
+        }
+
+        index++;
     }
 }

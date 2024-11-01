@@ -11,6 +11,7 @@ TagManager:
   - searched item
   - Suspect
   - SuspectData
+  - SoundManager
   layers:
   - Default
   - TransparentFX

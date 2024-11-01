@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Note : MonoBehaviour
 {
-    [SerializeField] private Pages[] pages;
+    [SerializeField] private GameObject[] pageObject;
     [SerializeField] private int index;
     [SerializeField] private GameObject noteObj;
 
@@ -40,7 +40,7 @@ public class Note : MonoBehaviour
         }
 
         OffAllPage();
-        pages[index].pageObject.SetActive(true);
+        pageObject[index].SetActive(true);
     }
 
     public void NextPage()
@@ -56,21 +56,14 @@ public class Note : MonoBehaviour
         }
 
         OffAllPage();
-        pages[index].pageObject.SetActive(true);
+        pageObject[index].SetActive(true);
     }
 
     private void OffAllPage()
     {
-        for (int i = 0; i < pages.Length; i++)
+        for (int i = 0; i < pageObject.Length; i++)
         {
-            pages[i].pageObject.SetActive(false);
+            pageObject[i].SetActive(false);
         }
     }
-}
-
-[System.Serializable]
-public struct Pages
-{
-    public GameObject pageObject;
-    public GameObject[] contents;
 }

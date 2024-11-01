@@ -359,7 +359,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1699990153}
         m_TargetAssemblyTypeName: Note, Assembly-CSharp
         m_MethodName: ProvPage
         m_Mode: 1
@@ -520,6 +520,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396680428}
   m_CullTransparentMesh: 1
+--- !u!1 &397304246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 397304247}
+  - component: {fileID: 397304249}
+  - component: {fileID: 397304248}
+  m_Layer: 5
+  m_Name: Tip Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &397304247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397304246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1162131879}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -7.5}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &397304248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397304246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.34905648, b: 0.6649557, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: "\uC704\uC758 \uD14D\uC2A4\uD2B8 \uC911 \uB178\uB780\uC0C9 \uD14D\uC2A4\uD2B8\uC758
+    \uC774\uBBF8\uC9C0\uB97C \uB20C\uB7EC \uD78C\uD2B8\uB97C \uC5BB\uC790!"
+--- !u!222 &397304249
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397304246}
+  m_CullTransparentMesh: 1
 --- !u!1 &411566532
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,8 +634,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: -100, y: 0}
+  m_AnchoredPosition: {x: -25, y: 0}
+  m_SizeDelta: {x: -250, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411566534
 MonoBehaviour:
@@ -570,7 +650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99656975, g: 1, b: 0.47484267, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -845,7 +925,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Dialog11
+          m_StringArgument: Dialog10
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &496272927
@@ -2080,7 +2160,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   texts:
-  - {fileID: 0}
+  - {fileID: 411566534}
   - {fileID: 0}
   - {fileID: 0}
   strs:
@@ -2140,6 +2220,7 @@ RectTransform:
   m_Children:
   - {fileID: 188365506}
   - {fileID: 1919495730}
+  - {fileID: 397304247}
   m_Father: {fileID: 1066945829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2668,24 +2749,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 532b40b8f5c9b8e4c9122ff131323d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pages:
-  - pageObject: {fileID: 0}
-    contents:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-  - pageObject: {fileID: 0}
-    contents:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-  - pageObject: {fileID: 0}
-    contents:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+  pageObject:
+  - {fileID: 51407503}
+  - {fileID: 779947372}
+  - {fileID: 1497516948}
   index: 0
-  noteObj: {fileID: 0}
+  noteObj: {fileID: 319570139}
 --- !u!4 &1699990154
 Transform:
   m_ObjectHideFlags: 0
@@ -2937,7 +3006,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1699990153}
         m_TargetAssemblyTypeName: Note, Assembly-CSharp
         m_MethodName: NextPage
         m_Mode: 1

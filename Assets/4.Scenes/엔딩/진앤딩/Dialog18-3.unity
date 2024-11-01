@@ -330,7 +330,7 @@ MonoBehaviour:
     name: "\uB098\uB808\uC774\uC158"
     mapIndex: 0
     dialogue: "\uB8E8\uCE74\uC2A4\uB294 \uC870\uC6A9\uD788 \uC790\uB9AC\uC5D0\uC11C
-      \uC77C\uC5B4\uB098 \uACE8\uBAA9\uC744 \uB5A0\uB09C\uB2E4. "
+      \uC77C\uC5B4\uB098 \uACE8\uBAA9\uC73C\uB85C \uD5A5\uD55C\uB2E4. "
   - speakerIndex: -1
     association: ???
     name: "\uB098\uB808\uC774\uC158"

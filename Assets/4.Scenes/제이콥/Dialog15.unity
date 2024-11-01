@@ -275,12 +275,12 @@ MonoBehaviour:
     name: "\uC81C\uC774\uCF65"
     mapIndex: 0
     dialogue: "\uB124... \uC800\uBC88\uC5D0 \uC870\uC0AC\uD558\uC2E0 \uC18C\uD53C\uC544\uB77C\uB294
-      \uC758\uC0AC\uBD84\uC774 \uC81C \uC5B4\uBA38\uB2C8 \uC785\uB2C8\uB2E4... "
+      \uC758\uC0AC\uBD84\uC774 \uC81C \uC5B4\uBA38\uB2C8\uC785\uB2C8\uB2E4... "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4 "
     mapIndex: 0
-    dialogue: "\uC544 \uADF8\uB7F0 \uAD00\uACC4 \uC774\uC168\uAD70\uC694... \uC568\uB9AC\uC2A4
+    dialogue: "\uC544 \uADF8\uB7F0 \uAD00\uACC4\uC168\uAD70\uC694... \uC568\uB9AC\uC2A4
       \uC77C\uC740 \uC720\uAC10\uC785\uB2C8\uB2E4... \uB9CE\uC774 \uCE5C\uD558\uC168\uB2E4\uACE0
       \uB4E4\uC5C8\uB294\uB370... "
   - speakerIndex: 1
@@ -290,15 +290,15 @@ MonoBehaviour:
     dialogue: "\uB124...\uC194\uC9C1\uD788 \uC880 \uCDA9\uACA9\uC774\uC600\uC5B4\uC694...
       \uADF8 \uC81C \uC720\uC77C\uD55C \uCE5C\uAD6C\uC774\uC790... \uB9CE\uC740 \uC598\uAE30\uB97C
       \uD574\uC628 \uCE5C\uAD6C\uC778\uB370... \uC774\uC81C\uB294 \uADF8\uB7F4 \uC218
-      \uC5C6\uB2E4\uB294\uAC8C...\uC880 \uACF5\uD5C8\uD55C \uAE30\uBD84\uC774\uC5D0\uC694...
+      \uC5C6\uB2E4\uB294 \uAC8C...\uC880 \uACF5\uD5C8\uD55C \uAE30\uBD84\uC774\uC5D0\uC694...
       \uC785\uB9DB\uB3C4 \uC5C6\uACE0... "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uD639\uC2DC \uC804\uB0A0 \uC568\uB9AC\uC2A4 \uC528\uC640 \uB9CC\uB098\uC11C\uB294
-      \uBB34\uC2A8 \uC598\uAE30\uB97C \uD558\uC168\uACE0 \uC5BC\uB9C8\uB9CC\uC5D0
-      \uB9CC\uB098\uC2E0\uAC70\uC8E0..? "
+      \uBB34\uC2A8 \uC598\uAE30\uB97C \uD558\uC168\uACE0 \uC5BC\uB9C8 \uB9CC\uC5D0
+      \uB9CC\uB098\uC2E0 \uAC70\uC8E0..?"
   - speakerIndex: 1
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
@@ -310,7 +310,7 @@ MonoBehaviour:
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uC0B4\uC778 \uC18C\uC124\uC774\uB77C\uB2C8 \uD765\uBBF8\uB86D\uB124\uC694.
-      \uC790\uC138\uD788 \uB9D0\uC500\uD574\uC8FC\uC2E4 \uC218 \uC788\uC744\uAE4C\uC694? "
+      \uC790\uC138\uD788 \uB9D0\uC500\uD574 \uC8FC\uC2E4 \uC218 \uC788\uC744\uAE4C\uC694?  "
   - speakerIndex: 1
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
@@ -336,7 +336,7 @@ MonoBehaviour:
     name: "\uB098\uB808\uC774\uC158"
     mapIndex: 0
     dialogue: "\uC544\uB9C8\uB3C4 \uC81C\uC774\uCF65\uC758 \uC0B4\uC778 \uC18C\uC124\uC744
-      \uBCF4\uACE0 \uCDA9\uACA9\uC744 \uBA39\uC740\uAC8C \uC544\uB2D0\uAE4C..?  "
+      \uBCF4\uACE0 \uCDA9\uACA9\uC744 \uBC1B\uC740 \uAC8C \uC544\uB2D0\uAE4C..?  "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
@@ -346,7 +346,7 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "(\uC77C\uB2E8 \uC9D1\uC73C\uB85C \uBCF4\uB0B4\uACE0  \uC815\uB9AC\uB97C
+    dialogue: "(\uC77C\uB2E8 \uC9D1\uC73C\uB85C \uBCF4\uB0B4\uACE0 \uC815\uB9AC\uB97C
       \uD574\uBCF4\uC790...) "
   dialogGroup: {fileID: 956877733}
   dialogImage: {fileID: 1284246653}
@@ -1198,7 +1198,7 @@ Transform:
   m_GameObject: {fileID: 959154081}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.33, y: 0.91, z: 0}
+  m_LocalPosition: {x: 3.33, y: 0.95, z: 0}
   m_LocalScale: {x: 1.81, y: 1.81, z: 1.81}
   m_ConstrainProportionsScale: 1
   m_Children: []

@@ -257,7 +257,7 @@ MonoBehaviour:
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "(\uCE68\uCC29\uD558\uAC8C) \uB2E4\uC2DC \uCC3E\uC544\uC640 \uC8C4\uC1A1\uD569\uB2C8\uB2E4,
-      \uC18C\uD53C\uC544\uB2D8. \uBA87 \uAC00\uC9C0 \uD655\uC778\uD558\uACE0 \uC2F6\uC740
+      \uC18C\uD53C\uC544 \uB2D8. \uBA87 \uAC00\uC9C0 \uD655\uC778\uD558\uACE0 \uC2F6\uC740
       \uBD80\uBD84\uC774 \uC788\uC5B4\uC11C\uC694. "
   - speakerIndex: 1
     association: "H\uC2DC \uC758\uC0AC"
@@ -319,7 +319,7 @@ MonoBehaviour:
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uBB3C\uB860 \uC544\uB2D9\uB2C8\uB2E4. (\uC0B4\uC9DD \uBBF8\uC18C\uB97C
-      \uC9C0\uC73C\uBA70) \uB2E4\uB9CC \uC694\uC998 \uC18C\uD53C\uC544\uB2D8\uAED8\uC11C
+      \uC9C0\uC73C\uBA70) \uB2E4\uB9CC \uC694\uC998 \uC18C\uD53C\uC544 \uB2D8\uAED8\uC11C
       \uB9CE\uC774 \uC2E0\uACBD \uC4F0\uACE0 \uACC4\uC2E0 \uBD84\uC774 \uB610 \uC788\uB294
       \uAC83 \uAC19\uB354\uAD70\uC694. "
   - speakerIndex: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uC758\uC0AC"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: ". \uD639\uC2DC\uB77C\uB3C4 \uC18C\uD53C\uC544\uB2D8\uC774 \uC54C\uACE0
+    dialogue: "\uD639\uC2DC\uB77C\uB3C4 \uC18C\uD53C\uC544 \uB2D8\uC774 \uC54C\uACE0
       \uACC4\uC2E0 \uB2E4\uB978 \uC815\uBCF4\uAC00 \uC788\uB2E4\uBA74 \uAF2D \uB9D0\uC500
       \uBD80\uD0C1\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4."
   - speakerIndex: 1
@@ -1270,7 +1270,7 @@ Transform:
   m_GameObject: {fileID: 959154081}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.33, y: 0, z: 0}
+  m_LocalPosition: {x: 3.33, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

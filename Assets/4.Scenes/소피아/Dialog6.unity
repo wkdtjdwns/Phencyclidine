@@ -256,20 +256,20 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "\uBC18\uAC11\uC2B5\uB2C8\uB2E4 \uC18C\uD53C\uC544, \uC804 \uD0D0\uC815\uC778
+    dialogue: "\uBC18\uAC11\uC2B5\uB2C8\uB2E4. \uC18C\uD53C\uC544, \uC804 \uD0D0\uC815\uC778
       \uB8E8\uCE74\uC2A4\uB77C\uACE0 \uD569\uB2C8\uB2E4."
   - speakerIndex: 1
     association: "H\uC2DC \uC758\uC0AC"
     name: "\uC18C\uD53C\uC544"
     mapIndex: 0
     dialogue: "\uB124... \uC18C\uC2DD\uC740 \uB4E4\uC5C8\uC2B5\uB2C8\uB2E4. \uADFC\uB370
-      \uC81C\uAC90 \uC5B4\uCA50\uC77C\uB85C..?"
+      \uC81C\uAC90 \uC5B4\uCA50 \uC77C\uB85C..? "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uB2E4\uB984\uC774 \uC544\uB2C8\uB77C \uC568\uB9AC\uC2A4\uC640 \uC5F0\uAD00\uC774
-      \uC788\uB294 \uC778\uBB3C\uB4E4\uC744 \uC870\uC0AC\uC911\uC774\uB77C\uC11C\uC694
+      \uC788\uB294 \uC778\uBB3C\uB4E4\uC744 \uC870\uC0AC \uC911\uC774\uB77C\uC11C\uC694
       \uD611\uC870 \uBD80\uD0C1\uB4DC\uB9BD\uB2C8\uB2E4."
   - speakerIndex: 1
     association: "H\uC2DC \uC758\uC0AC"
@@ -289,7 +289,7 @@ MonoBehaviour:
     mapIndex: 0
     dialogue: "\uC800\uBC88 \uC8FC\uC5D0 \uC18C\uD53C\uC544\uAC00 \uBAB8\uC774 \uC544\uD504\uB2E4\uACE0
       \uB9D0\uD574\uC11C \uADF8\uB0E5 \uAC04\uB2E8\uD55C \uAC10\uAE30\uC57D\uC744
-      \uCC98\uBC29\uD574\uC654\uC2B5\uB2C8\uB2E4... "
+      \uCC98\uBC29\uD574 \uC654\uC2B5\uB2C8\uB2E4... "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
@@ -310,7 +310,7 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "\uB124 \uAC10\uC0AC\uD569\uB2C8\uB2E4.. \uC774\uB9CC \uAC00\uBCF4\uC154\uB3C4
+    dialogue: "\uB124, \uAC10\uC0AC\uD569\uB2C8\uB2E4... \uC774\uB9CC \uAC00\uBCF4\uC154\uB3C4
       \uC88B\uC2B5\uB2C8\uB2E4."
   dialogGroup: {fileID: 956877733}
   dialogImage: {fileID: 1284246653}
@@ -1001,7 +1001,7 @@ Transform:
   m_GameObject: {fileID: 959154081}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.33, y: 0, z: 0}
+  m_LocalPosition: {x: 3.33, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

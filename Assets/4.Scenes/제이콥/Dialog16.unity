@@ -270,8 +270,8 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "\uB204\uAC00 \uC774\uB97C \uC99D\uBA85\uD574\uC904 \uB9CC\uD55C \uC0AC\uB78C\uC774
-      \uC788\uB098\uC694? "
+    dialogue: "\uB204\uAD70\uAC00 \uC774\uB97C \uC99D\uBA85\uD574 \uC904 \uC218 \uC788\uB294
+      \uC0AC\uB78C\uC774 \uC788\uB098\uC694?"
   - speakerIndex: 1
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
@@ -296,8 +296,8 @@ MonoBehaviour:
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
     mapIndex: 0
-    dialogue: "\uB124... \uB178\uD2B8\uBD81\uC548\uC5D0 \uC788\uC73C\uB2C8 \uD655\uC778
-      \uD558\uC2DC\uB294\uACB8 \uBCF4\uC154\uB3C4 \uC0C1\uAD00\uC740 \uC5C6\uC2B5\uB2C8\uB2E4... "
+    dialogue: "\uB124... \uB178\uD2B8\uBD81 \uC548\uC5D0 \uC788\uC73C\uB2C8 \uD655\uC778\uD558\uC2DC\uB294
+      \uACB8 \uBCF4\uC154\uB3C4 \uC0C1\uAD00\uC740 \uC5C6\uC2B5\uB2C8\uB2E4...  "
   - speakerIndex: 1
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
@@ -308,13 +308,13 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "\uB124 \uAC71\uC815\uB9D0\uC544\uC8FC\uC138\uC694 \uC544\uBB34\uD2BC
-      \uAC00\uBCF4\uC154\uB3C4 \uC88B\uC2B5\uB2C8\uB2E4. \uC81C\uC774\uCF65.. "
+    dialogue: "\uB124, \uAC71\uC815 \uB9D0\uC544\uC8FC\uC138\uC694. \uC544\uBB34\uD2BC
+      \uC774\uC81C \uAC00\uBCF4\uC154\uB3C4 \uB429\uB2C8\uB2E4. \uC81C\uC774\uCF65.. "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "(\uC77C\uB2E8 \uB0B4\uC77C\uC744 \uC704\uD574 \uC900\uBE44\uD558\uC790...) "
+    dialogue: "(\uC77C\uB2E8, \uB0B4\uC77C\uC744 \uC704\uD574 \uC900\uBE44\uD558\uC790...)"
   dialogGroup: {fileID: 956877733}
   dialogImage: {fileID: 1284246653}
   associationText: {fileID: 617228132}
@@ -1165,7 +1165,7 @@ Transform:
   m_GameObject: {fileID: 959154081}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.33, y: 0.91, z: 0}
+  m_LocalPosition: {x: 3.33, y: 0.95, z: 0}
   m_LocalScale: {x: 1.81, y: 1.81, z: 1.81}
   m_ConstrainProportionsScale: 1
   m_Children: []

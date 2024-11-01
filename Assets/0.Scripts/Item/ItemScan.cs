@@ -30,6 +30,7 @@ public class ItemScan : MonoBehaviour
                     case "Alibi - 1 Image":
                         texts[1].text = strs[1].Replace("\\n", "\n");
                         break;
+
                     case "Proviso - 4 Image":
                         texts[2].text = strs[2].Replace("\\n", "\n");
                         break;

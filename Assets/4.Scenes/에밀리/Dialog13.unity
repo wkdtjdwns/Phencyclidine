@@ -282,22 +282,22 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4 "
     mapIndex: 0
-    dialogue: "\uC54C\uACA0\uC2B5\uB2C8\uB2E4. \uD639\uC2DC..."
+    dialogue: "\uC54C\uACA0\uC2B5\uB2C8\uB2E4. \uD639\uC2DC... "
   - speakerIndex: 1
     association: "\uC694\uB9AC\uC0AC"
     name: "\uC5D0\uBC00\uB9AC"
     mapIndex: 0
-    dialogue: "\uB124?? \uBB34\uC2A8 \uC77C\uC774\uC2DC\uC8E0?"
+    dialogue: "\uB124?? \uBB34\uC2A8 \uC77C\uC774\uC2DC\uC8E0? "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "\uC8FC\uBC29 \uD55C \uBC88 \uBCFC \uC218 \uC788\uC744\uAE4C\uC694..? "
+    dialogue: "\uC8FC\uBC29 \uD55C \uBC88 \uBCFC \uC218 \uC788\uC744\uAE4C\uC694..?  "
   - speakerIndex: 1
     association: "\uC694\uB9AC\uC0AC"
     name: "\uC5D0\uBC00\uB9AC"
     mapIndex: 0
-    dialogue: "\uB124!? \uC9C0\uAE08 \uC808 \uC758\uC2EC\uD558\uC2DC\uB294 \uAC70\uC5D0\uC694..?"
+    dialogue: "\uB124!? \uC9C0\uAE08 \uC808 \uC758\uC2EC\uD558\uC2DC\uB294 \uAC70\uC5D0\uC694..? "
   - speakerIndex: -1
     association: ???
     name: "\uB098\uB808\uC774\uC158"
@@ -324,7 +324,7 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "(\uB9E5\uC2A4\uC5D0\uAC8C \uBD84\uC11D\uC744 \uB9E1\uACA8\uBD10\uC57C\uACA0\uB2E4...)"
+    dialogue: "(\uB9E5\uC2A4\uC5D0\uAC8C \uBD84\uC11D\uC744 \uB9E1\uACA8\uBD10\uC57C\uACA0\uB2E4...) "
   dialogGroup: {fileID: 956877733}
   dialogImage: {fileID: 1284246653}
   associationText: {fileID: 617228132}

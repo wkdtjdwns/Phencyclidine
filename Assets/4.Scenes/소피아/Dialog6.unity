@@ -270,19 +270,19 @@ MonoBehaviour:
     mapIndex: 0
     dialogue: "\uB2E4\uB984\uC774 \uC544\uB2C8\uB77C \uC568\uB9AC\uC2A4\uC640 \uC5F0\uAD00\uC774
       \uC788\uB294 \uC778\uBB3C\uB4E4\uC744 \uC870\uC0AC \uC911\uC774\uB77C\uC11C\uC694
-      \uD611\uC870 \uBD80\uD0C1\uB4DC\uB9BD\uB2C8\uB2E4."
+      \uD611\uC870 \uBD80\uD0C1\uB4DC\uB9BD\uB2C8\uB2E4. "
   - speakerIndex: 1
     association: "H\uC2DC \uC758\uC0AC"
     name: "\uC18C\uD53C\uC544"
     mapIndex: 0
-    dialogue: "\uB124..\uBB50.."
+    dialogue: "\uB124..\uBB50.. "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uD3C9\uC18C\uC5D0 \uC568\uB9AC\uC2A4\uC5D0\uAC8C \uC57D\uC744 \uACC4\uC18D
       \uCC98\uBC29 \uD574\uC624\uC168\uB2E4\uACE0 \uD558\uC168\uB294\uB370 \uBB34\uC2A8
-      \uC57D\uC744 \uCC98\uBC29\uD574 \uC624\uC168\uB098\uC694..?"
+      \uC57D\uC744 \uCC98\uBC29\uD574 \uC624\uC168\uB098\uC694..? "
   - speakerIndex: 1
     association: "H\uC2DC \uC758\uC0AC"
     name: "\uC18C\uD53C\uC544"
@@ -295,23 +295,23 @@ MonoBehaviour:
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uD639\uC2DC \uCC98\uBC29\uC804\uC744 \uC880 \uBCF4\uC5EC\uC8FC\uC2E4
-      \uC218 \uC788\uB098\uC694..?"
+      \uC218 \uC788\uB098\uC694..? "
   - speakerIndex: 1
     association: "H\uC2DC \uC758\uC0AC"
     name: "\uC18C\uD53C\uC544"
     mapIndex: 0
-    dialogue: "(\uCC98\uBC29\uC804\uC744 \uAC74\uB128\uB2E4)"
+    dialogue: "(\uCC98\uBC29\uC804\uC744 \uAC74\uB128\uB2E4) "
   - speakerIndex: -1
     association: ???
     name: "\uB098\uB808\uC774\uC158"
     mapIndex: 0
-    dialogue: "\uCC98\uBC29\uC804\uC744 \uD68D\uB4DD\uD588\uB2E4."
+    dialogue: "\uCC98\uBC29\uC804\uC744 \uD68D\uB4DD\uD588\uB2E4. "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uB124, \uAC10\uC0AC\uD569\uB2C8\uB2E4... \uC774\uB9CC \uAC00\uBCF4\uC154\uB3C4
-      \uC88B\uC2B5\uB2C8\uB2E4."
+      \uC88B\uC2B5\uB2C8\uB2E4. "
   dialogGroup: {fileID: 956877733}
   dialogImage: {fileID: 1284246653}
   associationText: {fileID: 617228132}

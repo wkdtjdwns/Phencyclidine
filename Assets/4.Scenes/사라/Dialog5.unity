@@ -320,14 +320,14 @@ MonoBehaviour:
     mapIndex: 0
     dialogue: "\uD504\uB85C\uC81D\uD2B8 \uC2E4\uC218 \uB54C\uBB38\uC5D0 \uD55C \uBC88
       \uD06C\uAC8C \uD63C\uC774 \uB098\uAE34 \uD588\uC9C0\uB9CC, \uADF8 \uD6C4\uB85C\uB294
-      \uBB38\uC81C\uAC00 \uC5C6\uC5C8\uC5B4\uC694."
+      \uBB38\uC81C\uAC00 \uC5C6\uC5C8\uC5B4\uC694. "
   - speakerIndex: 1
     association: "\uC5D8\uB9AC\uC2A4\uC758 \uD6C4\uC784"
     name: "\uC0AC\uB77C"
     mapIndex: 0
     dialogue: "\uC120\uBC30\uC5D0\uAC90...\uC544\uC9C1 \uBC30\uC6B8 \uAC8C \uB9CE\uC774
       \uB0A8\uC558\uB294\uB370.... \uC774\uC81C\uB294 \uBCFC \uC218 \uC5C6\uAC8C
-      \uB418\uC5B4\uBC84\uB838\uB124\uC694..."
+      \uB418\uC5B4\uBC84\uB838\uB124\uC694... "
   dialogGroup: {fileID: 956877733}
   dialogImage: {fileID: 1284246653}
   associationText: {fileID: 617228132}

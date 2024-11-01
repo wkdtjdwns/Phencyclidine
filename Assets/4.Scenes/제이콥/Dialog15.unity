@@ -269,7 +269,7 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "\uC5B4\uBA38\uB2C8\uAC00 \uC774 \uC77C\uC744 \uC544\uC2E0\uB2E4\uACE0\uC694..? "
+    dialogue: "\uC5B4\uBA38\uB2C8\uAC00 \uC774 \uC77C\uC744 \uC544\uC2E0\uB2E4\uACE0\uC694..?  "
   - speakerIndex: 1
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
@@ -298,7 +298,7 @@ MonoBehaviour:
     mapIndex: 0
     dialogue: "\uD639\uC2DC \uC804\uB0A0 \uC568\uB9AC\uC2A4 \uC528\uC640 \uB9CC\uB098\uC11C\uB294
       \uBB34\uC2A8 \uC598\uAE30\uB97C \uD558\uC168\uACE0 \uC5BC\uB9C8 \uB9CC\uC5D0
-      \uB9CC\uB098\uC2E0 \uAC70\uC8E0..?"
+      \uB9CC\uB098\uC2E0 \uAC70\uC8E0..? "
   - speakerIndex: 1
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
@@ -324,7 +324,7 @@ MonoBehaviour:
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uADF8 \uBD88\uC548\uD568\uC774 \uC5B4\uB5A4 \uC774\uC720\uC600\uB294\uC9C0
-      \uD639\uC2DC \uC0DD\uAC01\uB098\uB294 \uBC14\uAC00 \uC788\uC73C\uC2E0\uAC00\uC694? "
+      \uD639\uC2DC \uC0DD\uAC01\uB098\uB294 \uBC14\uAC00 \uC788\uC73C\uC2E0\uAC00\uC694?  "
   - speakerIndex: 1
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
@@ -341,7 +341,7 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "\uC77C\uB2E8 \uC624\uB298\uC740 \uAC00\uBCF4\uC154\uB3C4 \uC88B\uC2B5\uB2C8\uB2E4..."
+    dialogue: "\uC77C\uB2E8 \uC624\uB298\uC740 \uAC00\uBCF4\uC154\uB3C4 \uC88B\uC2B5\uB2C8\uB2E4... "
   - speakerIndex: 0
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"

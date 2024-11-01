@@ -271,7 +271,7 @@ MonoBehaviour:
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
     dialogue: "\uB204\uAD70\uAC00 \uC774\uB97C \uC99D\uBA85\uD574 \uC904 \uC218 \uC788\uB294
-      \uC0AC\uB78C\uC774 \uC788\uB098\uC694?"
+      \uC0AC\uB78C\uC774 \uC788\uB098\uC694? "
   - speakerIndex: 1
     association: "\uC568\uB9AC\uC2A4\uC758 \uC808\uCE5C?"
     name: "\uC81C\uC774\uCF65"
@@ -314,7 +314,7 @@ MonoBehaviour:
     association: "\uC815\uC758\uB85C\uC6B4 \uD0D0\uC815"
     name: "\uB8E8\uCE74\uC2A4"
     mapIndex: 0
-    dialogue: "(\uC77C\uB2E8, \uB0B4\uC77C\uC744 \uC704\uD574 \uC900\uBE44\uD558\uC790...)"
+    dialogue: "(\uC77C\uB2E8, \uB0B4\uC77C\uC744 \uC704\uD574 \uC900\uBE44\uD558\uC790...) "
   dialogGroup: {fileID: 956877733}
   dialogImage: {fileID: 1284246653}
   associationText: {fileID: 617228132}
